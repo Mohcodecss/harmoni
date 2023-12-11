@@ -1,0 +1,89 @@
+h1{
+    background-color:  blue;
+    text-align: center;
+    color: white;
+    gap: 0.0.40px;
+}
+ 
+#navbarSupportedContent{
+    padding-left: 500px;
+    font-size: large;
+}
+
+.topleft{
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;
+}
+hr {
+    height: 3px; 
+    background-color: black; 
+}
+.h2actualité{
+    color: rgb(0, 162, 255);
+}
+
+
+.actulité{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.actualité h3 {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .actualité p {
+    display: inline-block;
+    width: 300px; /* Adjust the width as needed */
+  }
+
+
+  
+    /* css du tableau des enseignants */
+    .tableauenseignants {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: rgba(52, 152, 219, 0.5);
+        color: white; 
+    }
+
+    .tableauenseignants th, .tableauenseignants td {
+        border: 1px solid #fff;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .tableauenseignants th {
+        background-color: #2980b9; 
+    }
+
+    .tableauenseignants img {
+        max-width: 100px;
+        height: auto;
+    }
+/* css du tableau des cours */
+.tableaucours {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(52, 152, 219, 0.5); /* Light blue with 50% opacity */
+    color: white; /* Text color for better visibility on the blue background */
+}
+
+.tableaucours th, .tableaucours td {
+    border: 1px solid #fff; /* White border color */
+    padding: 8px;
+    text-align: left;
+}
+
+.tableaucours th {
+    background-color: rgba(41, 128, 185, 0.7); /* Darker blue for header background color with 70% opacity */
+}
